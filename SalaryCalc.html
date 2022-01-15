@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator</title>
+    <link rel="stylesheet" href="SalaryCalc.css">
+</head>
+
+<body>
+    <div class="home__">
+    <a href="index.html"><button class="btn_home">Home</button></a>
+</div>
+   <h1>Salary Calculator</h1>
+   <div class="main">
+      <p class="money"> Rs </p> <input type="text" id="num" />
+          <p class="per_Y"> Per Year</p>
+       <br>
+       <button onclick="monthly(); weekly(); daily()" class="calc">Calculate</button><br>   
+       <input type="text" id="value1" readonly /><p class="per_M">Per Month</p>
+       <input type="text" id="value2" readonly /><p class="per_W">Per Week</p>
+       <input type="text" id="value3" readonly /><p class="per_D">Per Day</p>
+   </div>
+   <script type="text/javascript" src="SalaryCalc.js"></script>   
+</body>
+</html>
